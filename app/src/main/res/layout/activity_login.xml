@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="SecondActivity"
+    android:background="@drawable/r"
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Welcome to the world of crystals"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose your favorite crystal:"
+        android:id="@+id/text1"
+        android:layout_below="@+id/text"
+        android:layout_margin="13dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearquartz"
+        android:layout_below="@+id/text1"
+        android:text="1. Clear Quartz"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/amethyst"
+        android:layout_below="@+id/clearquartz"
+        android:text="2. Amethyst"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/garnet"
+        android:layout_below="@+id/amethyst"
+        android:text="3. Garnet"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/citrine"
+        android:layout_below="@+id/garnet"
+        android:text="4. Citrine"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blacktourmaline"
+        android:layout_below="@+id/citrine"
+        android:text="5. Black Tourmaline"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rosequartz"
+        android:layout_below="@+id/blacktourmaline"
+        android:text="6. Rose Quartz"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lapis"
+        android:layout_below="@+id/rosequartz"
+        android:text="7. Lapis Lazuli"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moonstone"
+        android:layout_below="@+id/lapis"
+        android:text="8. Moostone"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
+
+
